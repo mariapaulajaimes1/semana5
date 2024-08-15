@@ -7,3 +7,4 @@ st.header( "Hola, cómo va todo")
 st.write ("Diferentes tipos de letra")
 image= Image.open(Hugojaimes.jpeg)
 
+st.image(image,caption= "Hugojaimes")
