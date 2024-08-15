@@ -16,7 +16,7 @@ st.subheader("Ahora hablemos un poco")
 col1, col2 = st.columns(2)
 
 with col1:
-  st.subheader("Esta es la segunda columna")
+  st.subheader("Conozcámonos")
   modo= st.radio("¿Qué te consideras?", ("perro", "humano", "otro"))
 
 if modo== "perro":
