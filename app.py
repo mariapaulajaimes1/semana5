@@ -10,5 +10,5 @@ image= Image.open("Hugojaimes.jpeg")
 st.image(image,caption= "Hugojaimes")
 
 texto= st.text_input("Escribeme un mensaje", "este es mi mensaje")
-st.write( "El mensaje que mandaste es:", texto)
+st.write( "Gracias por tu mensaje:", texto)
 
