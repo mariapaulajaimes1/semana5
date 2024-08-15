@@ -41,7 +41,7 @@ else:
 
 with st.sidebar:
   st.subheader ("configura la modalidad")
-  mod_ radio= st.radio(
+  mod_radio= st.radio(
     "Escoge la modalidad a usar",
     ("perro", "humano", "otro")
   )
